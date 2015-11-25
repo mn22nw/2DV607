@@ -1,0 +1,18 @@
+.navigation {
+	background:green;
+	padding:10px;
+
+}
+.navigation ul {
+	list-style: none;
+	margin-left:-2.5em;
+}
+
+.navigation ul li{
+	display:inline;
+	padding:10px;
+
+}
+.navigation ul li a {
+	color:#FFF;
+}
