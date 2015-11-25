@@ -11,4 +11,4 @@ This is a simple example of using the react router along with webpack and css-mo
 
 built on top of the [https://github.com/gaearon/react-transform-boilerplate](https://github.com/gaearon/react-transform-boilerplate)
 
-[view demo](http://mn22nw.github.io/2DV607/simple-react-router-webpack/dist/)
+[VIEW DEMO](http://mn22nw.github.io/2DV607/simple-react-router-webpack/dist/)
