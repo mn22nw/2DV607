@@ -1,12 +1,6 @@
-/*
-This file defines the main Redux Store. It is used by the app's index.js file where it is given to
-the Provider element from ReactRedux, which allows smart components to `connect` to the store
-*/
-
-import Redux from "redux"
 import initialState from "./initialstate"
 import {thunk} from 'redux-thunk' // allows us to use asynchronous actions
-import { createStore, combineReducers } from 'redux'
+import { combineReducers, createStore, applyMiddleware } from 'redux';
 import reducers from './reducers'
 import { routeReducer } from 'redux-simple-router'
 
@@ -23,5 +17,4 @@ var logger = store => next => action => {
 }
 
 
-module.exports = Redux.applyMiddleware(thunk,logger)(createStore)(reducer,initialState);
-
+module.exports = applyMiddleware(thunk,logger)(createStore)(reducer,initialState);
