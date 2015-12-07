@@ -20,6 +20,8 @@ It's a bit messy at the moment, with some code and modules that wont be there la
 * Figure out how to make use of Redux in a good way.
 
 **Problems**  
+You have to press home(or the logo) to get the app to load the homepage properly....it changes the path then....not sure how to solve this (I just realised this so I havn't had any time to look into it yet).
+
 I don't know how to do with the index.html file when building ...the path to bundle.js becomes wrong if I copy the index file to the dist folder...and if I keep the index file where it is, the images gets the wrong path etc. Any help/suggestions would be appreciated. 
 
 built on top of the [https://github.com/gaearon/react-transform-boilerplate](https://github.com/gaearon/react-transform-boilerplate)
