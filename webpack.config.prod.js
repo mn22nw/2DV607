@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
@@ -21,7 +22,18 @@ module.exports = {
       compressor: {
         warnings: false
       }
-    })
+    }) ,
+    new CopyWebpackPlugin([
+            
+            // {output}/path/to/build/directory/file.txt 
+            { from: 'index.html' },
+
+            { from: 'favicon.ico' }
+            // Copy directory contents to {output}/path/to/build/directory/ 
+           // { from: 'path/to/directory', to: 'path/to/build/directory' },
+    
+            ])
+        
   ],
   module: {
     loaders: [{
