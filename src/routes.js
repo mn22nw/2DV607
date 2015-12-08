@@ -14,7 +14,7 @@ import NotFound               from './components/pages/not_found';
 
 
 export default (
-  <Route path="2DV607/dist/" component={App}>
+  <Route path="/" component={App}>
     <IndexRoute component={Home}/>
     <Route path="about" component={About}/>
     <Route path="dashboard" component={Dashboard}/>
