@@ -7,7 +7,7 @@ npm start
 open http://localhost:3000
 ```
 **Description**  
-This the beginning of my favovid app.   **OBS!** click home in the menu to get the app to load *see problems* [VIEW DEMO](http://mn22nw.github.io/favovid/dist/)  
+This the beginning of my favovid app.   **OBS!** click home in the menu to get the app to load *see problems* [VIEW DEMO](http://mn22nw.github.io/2DV607/dist/)  
 It's a bit messy at the moment, with some code and modules that wont be there later, but I thought I could put it up anyways...
 
 **Whats up next:**  
